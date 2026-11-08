@@ -20,6 +20,8 @@
 - **多格式导出**：MP4 / WebM / GIF
 - **自定义快捷键**：结束录制的快捷键可自行设置
 - **自动推荐**：按你的屏幕分辨率推荐放大倍数等参数
+<img width="1341" height="828" alt="image" src="https://github.com/user-attachments/assets/8fe264fd-3d6c-40d5-ba29-5bf02538cc47" />
+<img width="1343" height="830" alt="image" src="https://github.com/user-attachments/assets/9301fb7b-5fbd-4aac-9370-7efed23493ff" />
 
 ## 下载使用
 
