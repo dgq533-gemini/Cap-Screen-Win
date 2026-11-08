@@ -6,7 +6,7 @@
 ![electron](https://img.shields.io/badge/Electron-33-47848f)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-> **状态：早期版本（0.1.0）。** 核心流程可用，但仍有已知限制，见[已知限制](#已知限制)。
+> **状态：早期版本（1.0.0）。** 核心流程可用，但仍有已知限制，见[已知限制](#已知限制)。
 
 ## 功能
 
@@ -25,7 +25,7 @@
 
 ## 下载使用
 
-到 [Releases](../../releases) 下载 `AiFreeGensStudio-x.y.z.exe`，双击即可运行。无需安装，也不需要 Node.js。
+到 [Releases](../../releases) 下载 `AiFreeGens.com-Cap-Screen-Win-Version x.y.z.exe`，双击即可运行。无需安装，也不需要 Node.js。
 
 - 首次启动会慢几秒（便携版需先解压到临时目录）
 - 没有代码签名，Windows SmartScreen 可能提示“已保护你的电脑”，点“更多信息 → 仍要运行”
