@@ -19,7 +19,7 @@
   },
   "build": {
     "appId": "com.aifreegens.studio",
-    "productName": "AiFreeGensStudio",
+    "productName": "AiFreeGens.com-Cap-Screen-Win",
     "npmRebuild": false,
     "directories": { "output": "dist" },
     "files": ["src/**/*", "package.json"],
