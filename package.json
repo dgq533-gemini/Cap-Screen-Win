@@ -1,0 +1,33 @@
+{
+  "name": "studio-win",
+  "version": "0.1.0",
+  "description": "Windows 录屏与自动美化工具：自动放大、平滑光标、窗口聚焦、背景与圆角、多比例导出",
+  "author": "AiFreeGens.com",
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "uiohook-napi": "^1.5.4"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.aifreegens.studio",
+    "productName": "AiFreeGensStudio",
+    "npmRebuild": false,
+    "directories": { "output": "dist" },
+    "files": ["src/**/*", "package.json"],
+    "asarUnpack": ["node_modules/ffmpeg-static/**", "node_modules/uiohook-napi/**"],
+    "win": {
+      "target": [{ "target": "portable", "arch": ["x64"] }],
+      "signAndEditExecutable": false
+    },
+    "portable": { "artifactName": "${productName}-${version}.exe" }
+  }
+}
