@@ -1,6 +1,6 @@
-# Studio Win
+# Cap-Screen-Win
 
-> 一款 Screen Studio 风格的 **Windows 录屏与自动美化工具**。录一段普通的屏幕操作，自动得到带缩放镜头、平滑光标和精致背景的成片。
+> 一款 **Windows 录屏与自动美化工具**。录一段普通的屏幕操作，自动得到带缩放镜头、平滑光标和精致背景的成片。
 
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-blue)
 ![electron](https://img.shields.io/badge/Electron-33-47848f)
